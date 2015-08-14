@@ -1,0 +1,13 @@
+﻿Build started 8/14/2015 11:25:11 PM.
+     1>Project "F:\Projects\HospitalCabin_0605033\HospitalCabin\HospitalCabin.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Installed Software\MS Visual Stuidio 2013\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft Visual Studio 12.0\VC\lib" /I"C:\Program Files\Microsoft Visual Studio 12.0\VC\include\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HospitalCabin.cpp
+         HospitalCabin.cpp
+       Link:
+         F:\Installed Software\MS Visual Stuidio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Projects\HospitalCabin_0605033\Debug\HospitalCabin.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft Visual Studio 12.0\VC\lib" opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Projects\HospitalCabin_0605033\Debug\HospitalCabin.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Projects\HospitalCabin_0605033\Debug\HospitalCabin.lib" /MACHINE:X86 Debug\HospitalCabin.obj
+         HospitalCabin.vcxproj -> F:\Projects\HospitalCabin_0605033\Debug\HospitalCabin.exe
+     1>Done Building Project "F:\Projects\HospitalCabin_0605033\HospitalCabin\HospitalCabin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.39

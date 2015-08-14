@@ -1,0 +1,2 @@
+run HospitalCabin.vxcproj from the HospitalCabin folder.
+the so,ution would not run.

@@ -1,0 +1,115 @@
+http://stackoverflow.com/questions/12171317/how-do-you-install-glut-and-opengl-in-visual-studio-2012
+
+ 
+
+http://stackoverflow.com/questions/4294926/how-to-get-access-to-external-libraries-and-header-files-vc10
+
+ 
+
+ 
+
+if still cannot find glut, then only include following:
+
+#include<glut.h>
+
+ 
+
+case '1':
+
+                     MoveAntiClockWiseSliding1();
+
+                     break;
+
+              case '2':
+
+                     MoveClockWiseSliding1();
+
+                     break;
+
+              case '3':
+
+                     MoveAntiClockWiseSliding2();
+
+                     break;
+
+              case '4':
+
+                     MoveClockWiseSliding2();
+
+                     break;
+
+              case '5':
+
+                     MoveWheelChairForward();
+
+                     break;
+
+              case '6':
+
+                     MoveWheelChairBackward();
+
+                     break;
+
+              case '7':
+
+                     RotateFootStandClockwise();
+
+                     break;
+
+              case '8':
+
+                     RotateFootStandAntiClockwise();
+
+                     break;
+
+              case '9':
+
+                     MoveBedForward();
+
+                     break;
+
+              case '0':
+
+                     MoveBedBackward();
+
+                     break;
+
+              case 'f':
+
+                     CAMERA_SPEED -= .01;
+
+                     break;
+
+              case 'g':
+
+                     CAMERA_SPEED += .01;
+
+                     break;
+
+              case 'a':
+
+                     CAMERA_RAD += 1;
+
+                     break;
+
+              case 'd':
+
+                     CAMERA_RAD -= 1;
+
+                     break;
+
+              case 'w':
+
+                     CAMERA_HEIGHT += 1;
+
+                     break;
+
+              case 's':
+
+                     CAMERA_HEIGHT -= 1;
+
+                     break;
+
+              default:
+
+                     break;
